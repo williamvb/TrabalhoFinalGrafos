@@ -3,10 +3,11 @@
 ##### Utilizamos o algoritmo _DSatur_ com _Backtracking_
 ------------
 **Professor(a):**
-> Gabriela Mendes
+> Gabriela de Melo Pontes
 
 **Equipe:**
 > William Vieira Bastos
+
 > José Macedo de Araujo Filho
 
 -------------
@@ -26,16 +27,8 @@
 - Para a execução do programa faz-se necessario seguir alguns passos para o arquivo de entrada:
 	1. O arquivo com a entrada ( *sudoku* ) deve estar no mesmo diretorio dos demais arquivos do projeto
 	1. O nome do arquivo deve ser: ***input.txt***
-	1. A escrita do arquivo deve seguir o padrão abaixo onde cada '-' corresponde a uma celula do sudoku, seja ela preenchida ou vazia:
-
-Sudoku Vazio | Sudoku Incompleto | Sudoku Concluido
---------------- | ---------------------  | -------------
-- - - - - - - - - | - 2 - 5 - 1 - 9 -          | 4 2 6 5 7 1 3 9 8
-- - - - - - - - - | 8 - - 2 - 3 - - 6          |8 5 7 2 9 3 1 4 6
-- - - - - - - - - | - 3 - - 6 - - 7 -           |1 3 9 4 6 8 2 7 5
-- - - - - - - - - | - - 1 - - - 6 - -            |9 7 1 3 8 5 6 2 4
-- - - - - - - - - | 5 4 - - - - - 1 9           |5 4 3 7 2 6 8 1 9
-- - - - - - - - - | - - 2 - - - 7 - -            |6 8 2 1 4 9 7 5 3
-- - - - - - - - - | - 9 - - 3 - - 8 -           |7 9 4 6 3 2 5 8 1
-- - - - - - - - - | 2 - - 8 - 4 - - 7          |2 6 5 8 1 4 9 3 7
-- - - - - - - - - | - 1 - 9 - 7 - 6 -          |3 1 8 9 5 7 4 6 2 
+	1. A escrita do arquivo deve seguir o seguinte padrão:
+		- cada '-' corresponde a uma celula vazia do sudoku
+		- um numero corresponde a uma celula preenchida com aquele numero
+		- o arquivo deve conter 9 linha
+		- cada linha deve conter 9 caracteres ( '-' ou numero )
